@@ -1,9 +1,21 @@
 .bg-custom{
   background-color: rgba(21, 202, 157, 0.901);
+  height: 100vh;
+}
+@media screen and (min-width: 768px) {
+  .size-custom{
+    font-size: 4rem;
+  }
 }
 .br-custom{
   border-radius: 100%;
 }
 .font-custom{
-  font-family: 'Bungee Shade', cursive;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-text-stroke: 1px white;
+  font-family: arial; color: transparent;
+}
+
+.vh{
+  height: 100vh;
 }
