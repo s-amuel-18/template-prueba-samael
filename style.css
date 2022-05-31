@@ -27,6 +27,57 @@
   color: rgba(21, 202, 157, 0.901);
   font-size: 1rem;
 }
+.btn-outline-custom{
+  color:  rgba(21, 202, 157, 0.901);
+}
 i:hover{
   cursor: pointer;
+}
+.list-personalize{
+  list-style: none;
+}
+.list-personalize-2 li{
+  list-style: none;  
+}
+.list-personalize-2 li::before{
+  content: "o";
+  color: rgba(21, 202, 157, 0.901);
+  right: 0;
+  left: -20px;
+  top: 6px;
+  position: absolute;
+}
+.tit-seccion{
+  color: rgba(21, 202, 157, 0.901);
+}
+.linea{
+  background-color: rgb(218, 218, 218);
+  height: 12px;
+  border-radius: 10px;
+}
+.linea-porcentaje{
+  background-color: rgb(245, 66, 66);
+  height: 12px;
+  border-radius: 10px;
+  width: 90%;
+}
+.bg-celeste-custom{
+  background-color: rgba(21, 202, 157, 0.901);
+  width: 95%;
+}
+.bg-yellow-custom{
+  background-color: rgba(255, 196, 1, 0.901);
+  width: 85%;
+}
+.bg-red-custom{
+  background-color: rgb(226, 50, 50);
+  width: 90%;
+}
+.bg-grey-custom{
+  background-color: rgb(168, 168, 168);
+  width: 95%;
+}
+.bg-blue-custom{
+  background-color: rgb(24, 116, 202);
+  width: 85%;
 }
