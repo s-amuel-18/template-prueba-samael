@@ -30,15 +30,15 @@
   <title>portafolio</title>
 </head>
 <body>
-  <section class="container-fluid bg-custom">
+  <section class="bg-custom">
     <div class="container d-flex justify-content-center align-items-center h-100">
-      <div class="row justify-content-center">
+      <div class="row justify-content-center align-items-center w-100">
 
-        <div class="col-12 col-md-6 col-lg-4">
+        <div class="col-12 col-md-6 col-lg-5">
             <img class="br-custom w-100" src="./img/profile.jpg" alt="">
         </div>
   
-        <div class="col-12 col-md-6 col-lg-6 text-white p-3 text-center text-lg-left">
+        <div class="col-12 col-md-6 col-lg-7 text-white p-4 text-center text-lg-left">
        
               <div>
                 <p class="h4">I'm</p>
@@ -53,11 +53,27 @@
                 <span id="typed"></span>
               </div>
   
-              <div class="pt-5">
-                <button class="btn btn-transparent btn-outline-light"> Download CV </button>
+              <!-- botones en pantalla media -->
+              <div class="d-none d-md-flex pt-5 align-items-center">
+                <div class="">
+                  <button class="btn btn-transparent btn-outline-light br2-custom p-2 mr-3"> Download CV </button>
+                </div>
+                
+                <div class="d-flex align-items-center">
+                  <button class="btn-custom px-4 py-2 mr-2"><i class="fa-solid fa-play py-3"></i></button>
+                  <p class="h4">play video</p>
+                </div>
               </div>
-              
-              <div>
+
+              <!-- botones en mobile first -->
+              <div class="d-md-none d-flex justify-content-center pt-3">
+                <div class="">
+                  <button class="btn btn-transparent btn-outline-light"> Download CV </button>
+                </div>
+                
+                <div>
+                  <button class="btn btn-transparent btn-outline-light"> Download CV </button>
+                </div>
               </div>
               
         </div>
@@ -91,5 +107,6 @@
   <script src="./lib/lightbox/js/lightbox.min.js"></script>
   <script src="./lib/waypoints/waypoints.min.js"></script>
   <script src="./lib/bootstrap-4/js/bootstrap.min.js"></script>
+  <script src="https://kit.fontawesome.com/659d46c642.js" crossorigin="anonymous"></script>
 </body>
 </html>

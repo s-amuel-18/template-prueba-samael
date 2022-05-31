@@ -4,18 +4,29 @@
 }
 @media screen and (min-width: 768px) {
   .size-custom{
-    font-size: 4rem;
+    font-size: 6rem;
   }
 }
 .br-custom{
   border-radius: 100%;
+}
+.br2-custom{
+  border-radius: 20px;
 }
 .font-custom{
   font-family: 'Montserrat', sans-serif;
   -webkit-text-stroke: 1px white;
   font-family: arial; color: transparent;
 }
-
-.vh{
-  height: 100vh;
+.btn-custom{
+  background-color: white;
+  border-radius: 100%;
+  border: none;
+}
+.btn-play{
+  color: rgba(21, 202, 157, 0.901);
+  font-size: 1rem;
+}
+i:hover{
+  cursor: pointer;
 }
