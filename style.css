@@ -13,6 +13,9 @@
 .br2-custom{
   border-radius: 20px;
 }
+.borde-form-custom{
+  border: 1px solid  rgba(21, 202, 157, 0.901);
+}
 .font-custom{
   font-family: 'Montserrat', sans-serif;
   -webkit-text-stroke: 1px white;
@@ -81,12 +84,14 @@ i:hover{
   background-color: rgb(24, 116, 202);
   width: 85%;
 }
-.icon-custom i{
-  height:30px;
-  width:30px;
-  color: white;
-  font-size: 1rem;
-  padding: 0.5rem;
+.icon-custom{
+  height:40px;
+  width:40px;
   background-color:rgba(21, 202, 157, 0.901);
+  padding: 0.5rem;
   border-radius: 100%
+}
+.icon-custom i{
+  color: white;
+  font-size: 1.5rem;
 }
