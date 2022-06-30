@@ -17,6 +17,10 @@
   <!-- stylesheet -->
   <link rel="stylesheet" href="./style.css">
 
+  <!-- stylesheet wow -->
+  <script src="./lib/"></script>
+
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
@@ -26,6 +30,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
 
   <script src="./lib/typed/typed.js"></script>
+  <script src="https://kit.fontawesome.com/659d46c642.js" crossorigin="anonymous"></script>
 
   <title>portafolio</title>
 </head>
@@ -348,6 +353,45 @@
     <div class="tit-seccion py-5">
       <h2 class="text-center h-1 text-uppercase font-weight-bold">my portfolio</h2>
     </div>
+    <div class="grid">
+      <div class="element-item ..."><p class="number">80</p></div>
+      <div class="element-item ..."><p class="number">42</p></div>
+      <div class="element-item ..."><p class="number">20</p></div>
+      <div class="element-item ..."><p class="number">75</p></div>
+      ...
+    </div>
+    <div class="row">
+      <div class="col-md-4 my-3">
+        <a class="" href="./img/portfolio-1.jpg" data-lightbox="image-1">
+          <img class="w-100" src="./img/portfolio-1.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-md-4 my-3">
+        <a class="" href="./img/portfolio-2.jpg" data-lightbox="image-1">
+          <img class="w-100" src="./img/portfolio-2.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-md-4 my-3">
+        <a class="" href="./img/portfolio-3.jpg" data-lightbox="image-1">
+          <img class="w-100" src="./img/portfolio-3.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-md-4 my-3">
+        <a class="" href="./img/portfolio-4.jpg" data-lightbox="image-1">
+          <img class="w-100" src="./img/portfolio-4.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-md-4 my-3">
+        <a class="" href="./img/portfolio-5.jpg" data-lightbox="image-1">
+          <img class="w-100" src="./img/portfolio-5.jpg" alt="">
+        </a>
+      </div>
+      <div class="col-md-4 my-3">
+        <a class="" href="./img/portfolio-6.jpg" data-lightbox="image-1">
+          <img class="w-100" src="./img/portfolio-6.jpg" alt="">
+        </a>
+      </div>
+    </div>
   </section>
 
   <section class="container">
@@ -408,7 +452,7 @@
           <div class="p-2">
             <textarea class="w-100 p-2 br2-custom borde-form-custom" name="" id="" cols="10" rows="5" placeholder="Message"></textarea>
           </div>
-          <div class="col-12 col-md-7 col-lg-5 p-3 d-flex justify-content-center">
+          <div class="col-12 col-md-7 col-lg-5 p-3 m-auto">
             <a href="" class="w-100 btn btn-transparent btn-outline-aquamarine br2-custom p-2"> Read More</a>
           </div>
         </form>
@@ -416,6 +460,49 @@
     </div>
   </section>
   
+  <section class="bg-custom-2 my-5">
+    <div class="container h-100">
+      <div class="row justify-content-center align-items-center h-100 flex-column">
+        <div class="d-flex">
+          <div class="icon-custom-2 bg-white mx-2 d-flex justify-content-center align-items-center">
+            <a class="" href=""><i class="fa-brands fa-twitter"></i></a>
+          </div>
+          <div class="icon-custom-2 bg-white mx-2 d-flex justify-content-center align-items-center">
+            <a class="" href=""><i class="fa-brands fa-facebook-f"></i></a>
+          </div>
+          <div class="icon-custom-2 bg-white mx-2 d-flex justify-content-center align-items-center">
+            <a class="" href=""><i class="fa-brands fa-linkedin-in"></i></a>
+          </div>
+          <div class="icon-custom-2 bg-white mx-2 d-flex justify-content-center align-items-center">
+            <a class="" href=""><i class="fa-brands fa-instagram"></i></a>
+          </div>
+        </div>
+        <div class="">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb bg-transparent ">
+                <li class="breadcrumb-item"><a href="#" class="text-white">Privacy</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-white">Terms</a></li>
+                <li class="breadcrumb-item"><a href="#" class="text-white">FAQs</a></li>
+                <li class="breadcrumb-item active"><a href="#" class="text-white">Help</a></li>
+            </ol>
+          </nav>
+        </div>
+        <div>
+          <p class="text-white"><b>Domain Name</b>. All Rights Reserved. Designed by <b>HTML Codex</b></p>
+        </div>
+      </div>
+      
+    </div>
+
+  </section>
+
+  <section class="container">
+    <div class="row py-5">
+
+    </div>
+
+  </section>
+
   <script>
     var typed = new Typed('#typed',{
       stringsElement: '#textT',
@@ -425,13 +512,20 @@
       shuffle: true,
     });
   </script>
-
+  <script>
+     $('.grid').isotope({
+    // options
+    itemSelector: '.grid-item',
+    layoutMode: 'fitRows'
+    });
+  </script>
   <script src="./js/jquery.js"></script>
   <script src="./lib/easing/easing.min.js"></script>
   <script src="./lib/isotope/isotope.pkgd.min.js"></script>
   <script src="./lib/lightbox/js/lightbox.min.js"></script>
   <script src="./lib/waypoints/waypoints.min.js"></script>
   <script src="./lib/bootstrap-4/js/bootstrap.min.js"></script>
+  <script src="./lib/isotope/isotope.pkgd.min.js"></script>
   <script src="./lib/fontawesome/fontawesome.js" crossorigin="anonymous"></script>
 </body>
 </html>
